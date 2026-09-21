@@ -1,0 +1,17 @@
+{
+  "name": "quiniela-por-fecha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consulta resultados de la quiniela argentina por fecha, ordenados por posicion, con una ventana de color por sorteo y provincia.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
