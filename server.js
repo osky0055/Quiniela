@@ -5,9 +5,11 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
-//app.listen(PORT, '0.0.0.0', () => {
-//    console.log(`Servidor corriendo en el puerto ${PORT}`);
-//});
+
+appendFile.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const UA =
@@ -31,6 +33,10 @@ const TYPES = {
   vespertina: { label: 'Vespertina (Tarde)', hora: '18:00' },
   nocturna: { label: 'Nocturna (Noche)', hora: '21:00' },
 };
+
+
+
+
 
 const TYPE_ORDER = ['previa', 'primera', 'matutina', 'vespertina', 'nocturna'];
 const PROVINCE_ORDER = ['nacional', 'buenosaires', 'santafe', 'entrerios', 'cordoba', 'montevideo'];
