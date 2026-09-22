@@ -5,9 +5,9 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Servidor corriendo en el puerto ${PORT}`);
-});
+//app.listen(PORT, '0.0.0.0', () => {
+//    console.log(`Servidor corriendo en el puerto ${PORT}`);
+//});
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const UA =
